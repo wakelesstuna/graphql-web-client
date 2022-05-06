@@ -2,6 +2,9 @@
 
 GraphQL client for consuming GraphQL APIs from a Spring Boot application.
 
+![version](https://img.shields.io/badge/version-0.0.3-%23eb0195)
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/wakelesstuna/graphql-web-client/blob/main/LICENSE-MIT)
+
 
 ## Getting started
 
