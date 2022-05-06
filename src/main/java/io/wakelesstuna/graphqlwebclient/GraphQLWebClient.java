@@ -17,13 +17,13 @@ public class GraphQLWebClient {
     private final WebClient webClient;
     private final ObjectMapper objectMapper;
 
-    public Mono<Optional<GraphQLResponse>> post(GraphQLRequest request) {
+    public Mono<GraphQLResponse> post(GraphQLRequest request) {
         WebClient.RequestBodySpec spec = webClient.post().contentType(APPLICATION_JSON);
         request.getHttpHeaders()
                 .forEach((header, values) -> spec.header(header, values.toArray(new String[0])));
         return spec.bodyValue(request.getRequestBody())
                 .retrieve()
                 .bodyToMono(String.class)
-                .map(it -> Optional.of(new GraphQLResponse(it, objectMapper)));
+                .map(it -> new GraphQLResponse(it, objectMapper));
     }
 }
