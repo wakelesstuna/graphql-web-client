@@ -1,0 +1,5 @@
+{
+  "query": "query { user }",
+  "operationName": "user",
+  "variables": { "myVariable": "someValue" }
+}

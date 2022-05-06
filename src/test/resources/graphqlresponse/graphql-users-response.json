@@ -1,0 +1,12 @@
+{
+  "data": {
+    "users": [
+      {
+        "username": "Comment author 1"
+      },
+      {
+        "username": "Comment author 2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "data": {
+    "post": {
+      "title": "This is a Post object for testing",
+      "numberOfComments": 1234,
+      "createdAt": "2022-03-22T13:23:01",
+      "author": {
+        "username": "Test user"
+      },
+      "comments": [
+        {
+          "user": {
+            "username": "Comment author 1"
+          },
+          "comment": "Best comment ever!"
+        },
+        {
+          "user": {
+            "username": "Comment author 2"
+          },
+          "comment": "Best comment ever!"
+        }
+      ]
+    }
+  }
+}

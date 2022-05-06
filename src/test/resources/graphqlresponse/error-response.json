@@ -1,0 +1,20 @@
+{
+  "errors": [
+    {
+      "message": "Validation error of type SubSelectionRequired: Sub selection required for type Message! of field post @ 'post'",
+      "path": [
+        "path1",
+        "path2"
+      ],
+      "locations": [
+        {
+          "line": 2,
+          "column": 3
+        }
+      ],
+      "extensions": {
+        "classification": "ValidationError"
+      }
+    }
+  ]
+}
