@@ -1,3 +1,5 @@
+(just for testing deploying packages to github repo!)
+
 # graphql-web-client
 
 GraphQL client for consuming GraphQL APIs from a Spring Boot application.
