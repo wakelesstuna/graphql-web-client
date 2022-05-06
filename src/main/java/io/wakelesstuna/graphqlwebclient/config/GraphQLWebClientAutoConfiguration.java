@@ -1,7 +1,6 @@
 package io.wakelesstuna.graphqlwebclient.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-
 import io.wakelesstuna.graphqlwebclient.GraphQLWebClient;
 import io.wakelesstuna.graphqlwebclient.factory.GraphQLWebClientFactory;
 import lombok.Getter;
