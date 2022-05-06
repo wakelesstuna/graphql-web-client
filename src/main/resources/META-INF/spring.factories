@@ -1,2 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-io.wakelesstuna.graphqlwebclient.config.GraphQLWebClientAutoConfiguration
+io.wakelesstuna.graphqlwebclient.config.GraphQLWebClientAutoConfiguration,\
+  io.wakelesstuna.graphqlwebclient.factory.GraphQLWebClientFactory
